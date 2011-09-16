@@ -1,0 +1,9 @@
+Is AirTrain Broken?
+Ari Lacenski
+alacenski@gmail.com
+20110915
+
+This is a scraper to check whether the AirTrains
+at EWR and JFK airports are running.
+
+Runs on Beautiful Soup and web.py.
