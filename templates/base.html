@@ -1,0 +1,36 @@
+$def with (status)
+<!doctype html>
+<html>
+  <head>
+    <title>Is the AirTrain broken?</title>
+    <style type="text/css">
+      body {
+          font-family: sans-serif
+      }
+      h1 {
+         font-family: serif;
+         font-size: 18px;
+         font-style: italic;
+         font-weight: normal;
+      }
+      #status {
+          text-align: center;
+          font-size: 72px;
+          padding: 0.5em 100px;
+          font-weight: bold;
+      }
+    </style>
+  </head>
+  <body>
+    <h1>So... is the AirTrain broken?</h1>
+    <div id="status">
+      $:status
+    </div>
+
+    <p style="text-align: center;">See actual status at <a href="http://www.airportinfoalerts.com/recentmessages.aspx">NY/NJ Airport Info Alerts</a>.</p>
+  <!--
+      thanks for using mass transit! you're a sweetheart. 
+  -->
+  </body>
+</html>
+

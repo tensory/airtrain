@@ -1,0 +1,11 @@
+$def with (info)
+$if len(info) > 0:
+    $" and ".join([s.airport_code for s in info]) AirTrain
+    $if len(info) > 1:
+       are
+    $else:
+       is
+    broken!
+$else:
+    NO!
+
